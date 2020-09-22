@@ -1,0 +1,67 @@
+body {
+      background-image: url(bgmail.jpg);
+      width: 75%;
+      margin: auto;}
+      }
+
+header {height:100px;
+        }
+
+#logo{
+      width:150px;
+      vertical-align: middle;
+      }
+
+#text-logo{
+           color: rgb(255,255,255);
+           font-size: 40px;
+           padding:0 0 0 20px;
+           }
+
+.top-line {
+           margin-top:10px;
+           }
+
+.message{
+         font-size:40px;
+         color: rgb(255,255,255);
+
+         }
+
+  #important {
+              background-color:rgb(255, 255, 0);
+              color:rgb(0, 0, 0);
+              display: inline-block;
+              width:50px;
+              height:50px;
+              border-radius: 50%;
+              text-align: center;
+              vertical-align: middle;
+              }
+
+.raw-unread{
+            background-color: rgb(255,255,255);
+            border:1px solid black;
+            }
+
+.raw-read{
+          background-color:  #d4d4d4;
+          border:1px solid black;
+          }
+
+.raw-read > .subject{
+                     color: #999999;
+                    }
+
+footer{
+       text-align: center;
+       color: rgb(255, 255, 255);
+      }
+
+#gmail{
+       font-size: 30px;
+      }
+
+#creator{
+         font-size: 20px;
+        }
